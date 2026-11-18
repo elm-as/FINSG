@@ -1,0 +1,8 @@
+{
+  "n_entities": 12.0,
+  "n_documents": 12.0,
+  "n_edges": 34.0,
+  "local_roc_auc": 1.0,
+  "graph_roc_auc": 1.0,
+  "macro_f1": 1.0
+}

@@ -27,6 +27,15 @@ flowchart LR
     PROP --> EVAL["src/evaluation/walk_forward.py"]
 ```
 
+## Résultats & Datasets (`data/financial_corpus.json`, `data/entity_returns.csv`)
+
+| Indicateur | Valeur observée | Description |
+|---|---|---|
+| Entités & Documents | `12` émetteurs · `12` dépêches | Corpus et rendements sur 60 jours persistés dans `data/` |
+| Arêtes temporelles | `34` arêtes (pré-cutoff) | Graphe de corrélation construit sans fuite future |
+| ROC-AUC (Graphe) | `1.0000` | Pouvoir discriminant après propagation 1-hop |
+| Macro-F1 | `1.0000` | Équilibre précision/rappel (`artifacts/results.json`) |
+
 ## Démarrage Rapide
 
 ```bash
