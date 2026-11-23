@@ -1,6 +1,6 @@
 <div align="center">
 
-# FINSG — Financial Narrative & Systemic Graph Intelligence
+# FINSG - Financial Narrative & Systemic Graph Intelligence
 ### 501-Day Multi-Equity Telemetry, Google News RSS Sentiment & Leak-Free Temporal Graph Propagation
 
 <br/>
